@@ -1,0 +1,63 @@
+{
+  "name": "dapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "bootstrap-vue": "^2.0.0-rc.15",
+    "child_process": "^1.0.2",
+    "core-js": "^2.6.5",
+    "dist-exiftool": "^10.53.0",
+    "es6-promise": "^4.2.6",
+    "es6-promisify": "^6.0.0",
+    "ethers": "^4.0.27",
+    "exif-js": "^2.3.0",
+    "jquery": "^3.4.1",
+    "node-exiftool": "^2.3.0",
+    "nuxt": "^2.7.1",
+    "p-timeout": "^2.0.1",
+    "qr-image": "^3.2.0",
+    "vue": "^2.6.6",
+    "vue-router": "^3.0.2",
+    "vuex": "^3.1.0",
+    "vuex-persistedstate": "^2.5.4"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-plugin-eslint": "^3.5.0",
+    "@vue/cli-service": "^3.7.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-cli-plugin-ethers": "^0.1.4",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
